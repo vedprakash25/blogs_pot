@@ -5,7 +5,7 @@ import blogs from "@statics/blogs.json";
 
 <nav class="max-w-screen-lg mx-auto py-5">
   <div class="flex items-center gap-4 justify-between">
-    <a href="/" class="text-2xl font-extrabold text-gradient">Blogs_pot</a>
+    <a href="/blogs_pot" class="text-2xl font-extrabold text-gradient">Blogs_pot</a>
     <div class="hidden gap-4 w-full max-w-md">
       <input
         id="search"
@@ -91,21 +91,3 @@ import blogs from "@statics/blogs.json";
   </div>
 </nav>
 
-<script>
-  const search = document.getElementById("search");
-  const btn = document.getElementById("btn");
-  btn.addEventListener("click", () => {
-    console.log("value =", search.value);
-    const searchTerm = searchInput.value.toLowerCase();
-
-    for (let i = 0; i < listItems.length; i++) {
-      const text = listItems[i].textContent.toLowerCase();
-
-      if (text.indexOf(searchTerm) > -1) {
-        listItems[i].style.display = "block";
-      } else {
-        listItems[i].style.display = "none";
-      }
-    }
-  });
-</script>
