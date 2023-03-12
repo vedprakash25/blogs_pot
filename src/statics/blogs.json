@@ -1,0 +1,43 @@
+[
+  {
+    "href": "blogs/how-to-write-code-faster-in-react-with-vs-code",
+    "title": "How to code effectively in react with VS code.",
+    "src": "thumbnails/react-vs.webp",
+    "body": "React is an open-source JavaScript library for building user interfaces. VS Code is my favorite code editor. The editor has amazing extensions that make React development more fun. One of them is React code snippets. There is a great extension for React code snippets called ES7 React/Redux/React-Native/JS snippets that you can install from the extensions tab in VS Code.",
+    "p_date": "date",
+    "reactions": 100,
+    "writer": "Tracy Nuwagaba",
+    "writerPortfolio": "https://github.com/tracynuwagaba"
+  },
+
+  {
+    "href": "blogs/VS-Code-Extensions-That-Will-Boost-Your-Developer-Experience",
+    "title": "65 Must Have VS Code Extensions That Will Boost Your Developer Experience",
+    "src": "thumbnails/sixtyfive.avif",
+    "body": "VS Code is one of the most valuable applications on my computer. I live in it. It allows me to write code and build web applications. How fast I can move determines how productive I am. Efficiency is everything.",
+    "p_date": "date",
+    "reactions": 200,
+    "writer": "Amy Dutton",
+    "writerPortfolio": "https://selfteach.me"
+  },
+  {
+    "href": "https://tracy.hashnode.dev/how-to-write-code-faster-in-react-with-vs-code",
+    "title": "How to code effectively in react with VS code.",
+    "src": "thumbnails/react-vs.webp",
+    "body": "React is an open-source JavaScript library for building user interfaces. VS Code is my favorite code editor. The editor has amazing extensions that make React development more fun. One of them is React code snippets. There is a great extension for React code snippets called ES7 React/Redux/React-Native/JS snippets that you can install from the extensions tab in VS Code.",
+    "p_date": "date",
+    "reactions": 100,
+    "writer": "Tracy Nuwagaba",
+    "writerPortfolio": "https://github.com/tracynuwagaba"
+  },
+  {
+    "href": "https://selfteachme.hashnode.dev/65-vs-code-extensions",
+    "title": "65 Must Have VS Code Extensions That Will Boost Your Developer Experience",
+    "src": "thumbnails/sixtyfive.avif",
+    "body": "VS Code is one of the most valuable applications on my computer. I live in it. It allows me to write code and build web applications. How fast I can move determines how productive I am. Efficiency is everything.",
+    "p_date": "date",
+    "reactions": 200,
+    "writer": "Amy Dutton",
+    "writerPortfolio": "https://selfteach.me"
+  }
+]
