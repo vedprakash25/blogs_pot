@@ -2,14 +2,31 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import blogs from "@statics/blogs.json";
+// import { Client } from "@notionhq/client";
+
+// // Initializing a client
+// const notion = new Client({
+//   auth: process.env.NOTION_TOKEN,
+// });
 
 const date = new Date();
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="container">
-    <h1>Welcome to <span class="text-gradient">Blogs_pot</span></h1>
-    <p class="instructions">Blogs_pot description will come here.</p>
+  <div class="container h-[80vh] max-h-[35rem] flex gap-10 items-center">
+    <div class="flex-1 basis-24 max-w-2xl mx-auto text-center">
+      <h1 class="leading-none">
+        Welcome to <span class="text-gradient leading-tight">Blogspot</span>
+      </h1>
+      <p class="mt-4 pr-10 opacity-70">
+        A platform for discovering new technology-related blogs through
+        blogging. Stay Informed and Inspired with Our Engaging Content. Join Our
+        Community of Like-Minded Readers Today
+      </p>
+    </div>
+    <!-- <div class="flex-1">asdasd</div> -->
+  </div>
+  <main class="container border-2">
     <ul role="list" class="grid gap-8">
       {
         blogs.map((item, index) => {

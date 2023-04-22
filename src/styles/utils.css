@@ -1,9 +1,4 @@
-body {
-    margin-bottom: 8%;
-}
-
 input {
-    border: 1px solid black;
     border-radius: 2em;
     background: transparent;
     width: 100%;
@@ -16,8 +11,7 @@ input:focus {
 }
 
 button {
-    border-radius: .4em;
-    border: 1px solid black;
+    border-radius: 0 .4em .4em 0;
     font-size: 16px;
     padding: 10px 16px 12px;
     transition: all 0.2s ease-in-out;
@@ -35,7 +29,8 @@ button:hover {
     background-size: 400%;
     background-position: 0%;
 }
+
 .bg-gradient {
     background-image: var(--accent-gradient);
-    
+
 }

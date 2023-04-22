@@ -4,6 +4,27 @@
 
 @layer utilities {
     .container {
-        @apply w-full max-w-screen-md mx-auto;
+        @apply w-full max-w-screen-lg mx-auto;
+    }
+}
+
+@layer base {
+
+    @layer base {
+        h1 {
+            @apply text-4xl text-black font-bold leading-tight;
+        }
+
+        h2 {
+            @apply text-5xl text-black font-bold py-4;
+        }
+
+        h3 {
+            @apply text-xl text-black pr-12 py-2;
+        }
+
+        p {
+            @apply text-xl text-black;
+        }
     }
 }

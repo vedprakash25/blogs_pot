@@ -5,7 +5,7 @@ export interface Props {
   href?: string;
   onclick?: string;
   src: string;
-  p_date: Date;
+  p_date: string;
   reactions: number;
   writer: string;
   writerPortfolio: string;
@@ -13,9 +13,6 @@ export interface Props {
 
 const { href, title, body, src } = Astro.props;
 
-function handleClick() {
-  console.log("handleClick");
-}
 ---
 
 <li class="link-card">
@@ -52,7 +49,6 @@ function handleClick() {
   }
 </li>
 
-<script></script>
 <style>
   .link-card {
     list-style: none;
