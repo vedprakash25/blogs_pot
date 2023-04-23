@@ -14,7 +14,7 @@ const date = new Date();
 
 <Layout title="Welcome to Astro.">
   <div class="container h-[80vh] max-h-[35rem] flex gap-10 items-center">
-    <div class="flex-1 basis-24 max-w-2xl mx-auto text-center">
+    <div class="flex-1 basis-24 max-w-2xl mx-auto text-center pb-20">
       <h1 class="leading-none">
         Welcome to <span class="text-gradient leading-tight">Blogspot</span>
       </h1>
@@ -24,9 +24,8 @@ const date = new Date();
         Community of Like-Minded Readers Today
       </p>
     </div>
-    <!-- <div class="flex-1">asdasd</div> -->
   </div>
-  <main class="container border-2">
+  <main class="container border-2 rounded-xl">
     <ul role="list" class="grid gap-8">
       {
         blogs.map((item, index) => {
