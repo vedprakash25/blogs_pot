@@ -4,7 +4,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://vedprakash25.github.io",
-  base: "/blogs_pot",
+  site: "https://blogs-pot.vercel.app/",
   integrations: [tailwind()],
 });
