@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-        @apply text-4xl text-black font-bold leading-tight md:leading-tight;
+        @apply text-4xl text-black font-bold leading-tight md:mt-8 mt-2;
     }
 
     h2 {
@@ -16,6 +16,6 @@
     }
 
     p {
-        @apply text-xl text-black ;
+        @apply text-xl text-black mt-4 leading-relaxed;
     }
 }

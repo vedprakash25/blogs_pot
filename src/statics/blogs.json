@@ -1,7 +1,7 @@
 [
   {
     "href": "blogs/AI-and-web-development-in-2023",
-    "title": "VS-Code-Extensions-That-Will-Boost-Your-Developer-Experience",
+    "title": "VS Code Extensions That Will Boost Your Developer Experience",
     "src": "/thumbnails/react-vs.webp",
     "body": "",
     "p_date": "date",
@@ -11,7 +11,7 @@
   },
   {
     "href": "blogs/Understanding-Promises-in-JavaScript",
-    "title": "Understanding-Promises-in-JavaScript",
+    "title": "Understanding Promises in JavaScript",
     "src": "/thumbnails/react-vs.webp",
     "body": "",
     "p_date": "date",
@@ -21,7 +21,7 @@
   },
   {
     "href": "blogs/Understanding-Objects-in-JavaScript",
-    "title": "Understanding-Objects-in-JavaScript",
+    "title": "Understanding Objects in JavaScript",
     "src": "/thumbnails/react-vs.webp",
     "body": "",
     "p_date": "date",
@@ -31,7 +31,7 @@
   },
   {
     "href": "blogs/the-benefits-of-lazy-enumeration-how-to-save-time-and-memory-when-working-with-large-datasets",
-    "title": "the-benefits-of-lazy-enumeration-how-to-save-time-and-memory-when-working-with-large-datasets",
+    "title": "The Benefits of lazy enumeration how to save time and memory when working with large datasets",
     "src": "/thumbnails/react-vs.webp",
     "body": "",
     "p_date": "date",
@@ -41,8 +41,8 @@
   },
   {
     "href": "blogs/how-to-write-code-faster-in-react-with-vs-code",
-    "title": "how-to-write-code-faster-in-react-with-vs-code",
-    "src": "/thumbnails/react-vs.webp",
+    "title": "How to write code faster in react with vs code.",
+    "src": "https://cdn.hashnode.com/res/hashnode/image/upload/v1623528564687/K7z3udd4i.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     "body": "",
     "p_date": "date",
     "reactions": 200,
@@ -51,9 +51,29 @@
   },
   {
     "href": "blogs/AI-and-web-development-in-2023",
-    "title": "AI-and-web-development-in-2023",
+    "title": "AI and web development in 2023",
     "src": "/thumbnails/react-vs.webp",
     "body": "",
+    "p_date": "date",
+    "reactions": 200,
+    "writer": "",
+    "writerPortfolio": ""
+  },
+  {
+    "href": "blogs/breaking-the-ice-how-to-master-the-art-of-cold-dm-networking-on-social-media",
+    "title": "Breaking the Ice: How to Master the Art of Cold DM Networking on Social Media",
+    "src": "/thumbnails/react-vs.webp",
+    "body": "Tips and Best Practices for Ethical and Effective Cold DM Networking on Social Media",
+    "p_date": "date",
+    "reactions": 200,
+    "writer": "",
+    "writerPortfolio": ""
+  },
+  {
+    "href": "blogs/web-development-career-in-2022",
+    "title": "Starting Web Development in 2022: The Complete Guide (with Resources)",
+    "src": "https://cdn.hashnode.com/res/hashnode/image/upload/v1622472668073/zHW-tI4xv.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    "body": "Includes a roadmap and resources for Python and JavaScript paths",
     "p_date": "date",
     "reactions": 200,
     "writer": "",

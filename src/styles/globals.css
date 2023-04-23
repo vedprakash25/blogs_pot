@@ -16,7 +16,7 @@
         }
 
         h2 {
-            @apply text-5xl text-black font-bold py-4;
+            @apply text-5xl text-black font-bold;
         }
 
         h3 {
