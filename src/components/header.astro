@@ -3,8 +3,8 @@ import "@styles/globals.css";
 import blogs from "@statics/blogs.json";
 ---
 
-<nav class="max-w-screen-lg mx-auto py-5">
-  <div class="flex items-center gap-4 justify-between">
+<nav class="max-w-screen-lg mx-auto py-5 px-5">
+  <div class="flex flex-wrap items-center gap-4 justify-between">
     <a href="/" class="text-2xl font-extrabold text-gradient">Blogspot</a>
     <div class="flex gap-4 rounded-lg w-full max-w-md border-2">
       <input
@@ -18,7 +18,7 @@ import blogs from "@statics/blogs.json";
       <button id="btn">Search</button>
     </div>
 
-    <div>
+    <div class="hidden md:block">
       <div class="flex gap-4">
         <a
           href="/"

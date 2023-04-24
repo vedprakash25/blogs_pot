@@ -12,20 +12,19 @@ export interface Props {
 }
 
 const { href, title, body, src } = Astro.props;
-
 ---
 
-<li class="link-card ">
+<li class="link-card">
   {
     href ? (
       <a href={href}>
-        <div class="flex">
+        <div class="flex gap-4 md:flex-row flex-col-reverse">
           <div class="w-[70%]">
             <h2 class="text-2xl font-semibold">{title}</h2>
-            <p>{body.slice(0, 250)}...</p>
+            <p>{body.slice(0, 250)}</p>
           </div>
           <img
-            class="w-[30%] object-contain object-top"
+            class="md:w-[30%] rounded-lg object-contain object-top"
             src={src}
             alt="Blog thumbnail"
           />
@@ -33,13 +32,13 @@ const { href, title, body, src } = Astro.props;
       </a>
     ) : (
       <div id="click-card">
-        <div class="flex">
+        <div class="flex md:flex-row gap-4 flex-col-reverse">
           <div class="w-[70%]">
             <h2 class="text-2xl font-semibold">{title}</h2>
-            <p>{body.slice(0, 250)}...</p>
+            <p>{body.slice(0, 250)}</p>
           </div>
           <img
-            class="w-[30%] object-contain object-top"
+            class="md:w-[30%] rounded-lg object-contain object-top"
             src={src}
             alt="Blog thumbnail"
           />

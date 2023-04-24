@@ -13,19 +13,21 @@ const date = new Date();
 ---
 
 <Layout title="Welcome to Astro.">
-  <div class="container h-[80vh] max-h-[35rem] flex gap-10 items-center">
-    <div class="flex-1 basis-24 max-w-2xl mx-auto text-center pb-20">
+  <div
+    class="container md:h-[80vh] h-[60vh] mx-auto min-h-[25rem] flex gap-10 items-center"
+  >
+    <div class="flex-1 basis-24 max-w-2xl mx-auto text-center pb-20 px-4">
       <h1 class="leading-none">
         Welcome to <span class="text-gradient leading-tight">Blogspot</span>
       </h1>
-      <p class="mt-4 pr-10 opacity-70">
+      <p class="mt-4 md:pr-10 opacity-70">
         A platform for discovering new technology-related blogs through
         blogging. Stay Informed and Inspired with Our Engaging Content. Join Our
         Community of Like-Minded Readers Today
       </p>
     </div>
   </div>
-  <main class="container border-2 rounded-xl">
+  <main class="container rounded-lg">
     <ul role="list" class="grid gap-8">
       {
         blogs.map((item, index) => {
